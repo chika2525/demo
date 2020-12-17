@@ -1,0 +1,230 @@
+body {
+    width: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
+
+  .content {
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  .content a {
+    padding: 0;
+  }
+
+  a{
+    font-size: 4rem;
+  }
+
+
+  .background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  header {
+    text-align: center;
+    background-color: rgba(249, 255, 158, 0.767);
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    background-repeat: repeat-x;
+    height: 120px;
+  }
+
+  h1 {
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+    font-family: 'Sacramento', cursive;
+  }
+
+  main{
+    background-color: black;
+    min-height: 100vh;
+    /* background-image:url(images/image0[4].png); */
+    background-size: 80px;
+
+  }
+
+  .content2 {
+    background-color: black;
+    /* background-image:url(images/背景.png);  */
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+    
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 150px 40px 30px 40px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.87);
+  size: cover;
+  /* background-color: rgb(255, 255, 255); */
+  background-image:url(https://pics.prcm.jp/8351b1fc90e4c/84320990/png/84320990.png);
+  background-repeat:repeat-x;
+}
+
+ul span {
+    padding-left: 100px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 25px 30px 25px 30px;
+  font-size: 80px;
+  color: black;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+  h2 {
+      background-color: black;
+      font-family: "Nico Moji";
+      padding-top: 40px;
+      color: white;
+      font-size: 100px;
+  }
+
+  .main-p p{
+    margin: 0 auto;
+  }
+  p span{
+      font-size: 35px;
+      font-family: 'Kosugi Maru', sans-serif;
+      color: white;
+      background-color: rgba(255, 198, 208, 0.699);
+      padding: 20px;
+      margin-block-start: 3cm;
+      width: auto;
+  }
+  .plofile-content-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .plofile-content {
+    margin-top: 20px;
+    font-family: 'Kosugi Maru', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  dl {
+    display: flex;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.753);
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+  dt , dd {
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+dt {
+  width: 300px;
+  padding-left: 8px;
+}
+
+dd {
+  margin-left: 50px;
+  margin-right: 200px;
+  display: flex;
+}
+li {
+    list-style: none;
+    display: flex;
+}
+
+i {
+    font-size: 40px;
+    display: flex;
+}
+footer {
+   font-size: 17px;
+   background-size: cover;
+   background-color: burlywood;
+   text-align: center;
+   color: white;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-left: 90px;
+  font-size: 65px;
+  color: white;
+  text-align: left;
+  font-family: 'Kosugi Maru', sans-serif;
+  background-image: url(image);
+}
+
+h3 p{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+h3 img{
+  margin-left: 40px;
+  @keyframes heartBlast {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+    display: inline-block;
+    background-position: right;
+    -webkit-animation-name: heartBlast;
+    animation-name: heartBlast;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: steps(28);
+    animation-timing-function: steps(28);
+  }
+}
+
+h3 span{
+  font-size: 40px;
+  margin-top: 65px;
+  color: rgb(255, 218, 230);
+}
+h4 p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 90px;
+  text-align: right;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+h4 span {
+  font-size: 40px;
+  margin-top: 65px;
+  color: rgb(255, 218, 230);
+  text-align: right;
+}
+h4 {
+  margin-top: 60px;
+  margin-right: 90px;
+  font-size: 65px;
+  color: white;
+  text-align: right;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+ h4 script {
+   text-align: right;
+   inline-size: 50px;
+ }
